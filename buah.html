@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./buah.js" defer></script>
+    <link rel="stylesheet" href="./buah.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-atas">
+            <div class="form-buah">
+                <input type="text" name="idedit" hidden>
+                <div class="input-grup">
+                    <label>Nama Buah</label>
+                    <input type="text" name="nama" placeholder="nama buah" class="input">
+                </div>
+                <div class="input-grup">
+                    <label>Stok Buah</label>
+                    <input type="number" name="stok" min="1" placeholder="minimal 1" class="input">
+                </div>
+                <div class="input-grup">
+                    <label>harga Buah</label>
+                    <input type="number" name="harga" min="0" placeholder="minimal 1" class="input">
+                </div>
+
+                <input type="button" name="tambah" value="Tambah" onclick="tambah()" class="input">
+            </div>
+            <div class="form-buah">
+                <div class="input-grup">
+                    <label>Nama Buah</label>
+                    <select name="daftarbuah" id="daftarBuah" class="input">
+                </div>
+                <div class="input-grup">
+                    <label>Stok beli</label>
+                    <input type="number" name="stok-ambil" min="1" placeholder="minimal 1" class="input">
+                </div>
+                </select>
+                <input type="button" value="Beli" onclick="beli()">
+            </div>
+
+        </div>
+        <div class="page-bawah">
+            <table class="table-buah">
+                <thread>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Harga</th>
+                        <th>Stok</th>
+                        <th>Aksi</th>
+
+                    </tr>
+                </thread>
+                <tbody class="bodytable">
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

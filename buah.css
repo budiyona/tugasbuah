@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-buah {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 15px 15px black;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-buah{
+    width: 100%;
+}
+.page-atas {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+.page-bawah {
+    height: 40%;
+    margin: 30px 20px;
+}
+.input {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #c4c4c4;
+  }
+input[type='button']{
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(86, 86, 255);
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.input-grup{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.center-text{
+    text-align: center;
+}
+.update-btn{
+    color: white;
+    background-color: green;
+    border: none;
+    box-sizing: border-box;
+    padding: 2px 15px;
+}
+.delete-btn{
+    color: white;
+    background-color: red;
+    border: none;
+    box-sizing: border-box;
+    padding: 2px 15px;
+}
+tr:hover{
+    background-color: rgb(185, 185, 185);
+}
+th{
+    background-color: rgb(185, 185, 185);
+}
